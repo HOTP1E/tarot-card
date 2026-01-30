@@ -1,4 +1,4 @@
-package entity;
+package com.tarot.demo.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
