@@ -17,9 +17,9 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @Column
+    @Column(name = "username")
     private String username;
-    @Column
+    @Column(name = "email")
     private String email;
     @Column(name = "last_card")
     private String lastCard;
